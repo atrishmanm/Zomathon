@@ -1,5 +1,8 @@
 # Zomato Kitchen Prep Time (KPT) Prediction - Solution
 
+## Team
+**Authors:** Atrishman Mukherjee, Ansh Mathur, Supratik Dey
+
 ## Problem Statement
 Improving Kitchen Prep Time (KPT) Prediction to Optimize Rider Assignment and Customer ETA at Zomato
 
@@ -67,3 +70,9 @@ Zomathon/
 - **ETA Prediction Error (P90)**: -42% improvement
 - **Order Delays**: -28% reduction
 - **Rider Idle Time**: -40% reduction
+
+## Links
+
+- **GitHub Repository:** https://github.com/atrishmanm/Zomathon
+- **Datasets:** https://drive.google.com/drive/folders/1TptNTgQ0TjoBT6p-4mqq8uRUiuxfotVA
+- **Jupyter Notebook:** https://drive.google.com/file/d/1FQOoFvgccc0uOL7AzOMgMYq6fmnWkGRS

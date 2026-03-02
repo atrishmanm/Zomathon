@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.18)  2 MAR 2026 21:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.18)  2 MAR 2026 21:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -838,8 +838,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 45.
 -pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count356
-)
-No file main.aux.
+) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
@@ -860,6 +859,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
 LaTeX Font Info:    ... okay on input line 58.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
 LaTeX Font Info:    ... okay on input line 58.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -921,6 +921,7 @@ ys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring ON on input line 58.
+ (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -965,11 +966,7 @@ l.91 \textbf{Expected ROI:} ₹
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-No file main.toc.
-\tf@toc=\write5
-\openout5 = `main.toc'.
-
-[1
+(main.toc [1
 
 {C:/Users/Atrishman/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
@@ -980,7 +977,119 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [2]
-<../images/marking_bias_analysis.png, id=33, 952.2777pt x 681.2652pt>
+
+! LaTeX Error: Unicode character ✓ (U+2713)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 ...ownstream Impact}{26}{subsubsection.9.2.1}
+                                                  %
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ✓ (U+2713)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 ...lity Improvement}{26}{subsubsection.9.2.2}
+                                                  %
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ✓ (U+2713)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...aurant Live Rush}{26}{subsubsection.9.2.3}
+                                                  %
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ✓ (U+2713)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 ...}✓ Scalability}{26}{subsubsection.9.2.4}
+                                                  %
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ✓ (U+2713)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 ...ative Validation}{26}{subsubsection.9.2.5}
+                                                  %
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ✓ (U+2713)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.85 ... Success Metrics}{27}{subsubsection.9.2.6}
+                                                  %
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ✓ (U+2713)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 ...ty \& Creativity}{27}{subsubsection.9.2.7}
+                                                  %
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+)
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4]
+<../images/marking_bias_analysis.png, id=495, 952.2777pt x 681.2652pt>
 File: ../images/marking_bias_analysis.png Graphic file (type png)
 <use ../images/marking_bias_analysis.png>
 Package pdftex.def Info: ../images/marking_bias_analysis.png  used on input lin
@@ -994,7 +1103,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3 <../images/marking_bias_analysis.png>]
+[5 <../images/marking_bias_analysis.png>]
 
 ! LaTeX Error: Unicode character ₹ (U+20B9)
                not set up for use with LaTeX.
@@ -1074,7 +1183,7 @@ l.203 ... Annual Cost of Inaccurate KPT: ₹262M+}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-<../images/prediction_impact.png, id=44, 1006.962pt x 702.7053pt>
+<../images/prediction_impact.png, id=504, 1006.962pt x 702.7053pt>
 File: ../images/prediction_impact.png Graphic file (type png)
 <use ../images/prediction_impact.png>
 Package pdftex.def Info: ../images/prediction_impact.png  used on input line 20
@@ -1087,8 +1196,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[4 <../images/prediction_impact.png>]
-<../images/kitchen_visibility_gap.png, id=55, 990.8217pt x 719.0865pt>
+[6 <../images/prediction_impact.png>]
+<../images/kitchen_visibility_gap.png, id=512, 990.8217pt x 719.0865pt>
 File: ../images/kitchen_visibility_gap.png Graphic file (type png)
 <use ../images/kitchen_visibility_gap.png>
 Package pdftex.def Info: ../images/kitchen_visibility_gap.png  used on input li
@@ -1102,7 +1211,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[5 <../images/kitchen_visibility_gap.png>]
+[7 <../images/kitchen_visibility_gap.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1110,8 +1219,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[6]
-<../images/proposed_solution.png, id=69, 946.9779pt x 819.7827pt>
+[8]
+<../images/proposed_solution.png, id=526, 946.9779pt x 819.7827pt>
 File: ../images/proposed_solution.png Graphic file (type png)
 <use ../images/proposed_solution.png>
 Package pdftex.def Info: ../images/proposed_solution.png  used on input line 29
@@ -1125,7 +1234,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[7 <../images/proposed_solution.png>]
+[9 <../images/proposed_solution.png>]
 
 ! LaTeX Error: Unicode character ₹ (U+20B9)
                not set up for use with LaTeX.
@@ -1211,22 +1320,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[9]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
 [10]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1236,6 +1329,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [11]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[13]
 
 ! LaTeX Error: Unicode character ₹ (U+20B9)
                not set up for use with LaTeX.
@@ -1343,7 +1452,7 @@ l.567 ...:} ₹25,000+ hardware (cost-shared), ₹
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-<../images/scalability_analysis.png, id=122, 948.9051pt x 553.3473pt>
+<../images/scalability_analysis.png, id=558, 948.9051pt x 553.3473pt>
 File: ../images/scalability_analysis.png Graphic file (type png)
 <use ../images/scalability_analysis.png>
 Package pdftex.def Info: ../images/scalability_analysis.png  used on input line
@@ -1356,23 +1465,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[12]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[13 <../images/scalability_analysis.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
 [14]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[15 <../images/scalability_analysis.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[16]
 
 ! LaTeX Error: Unicode character ✓ (U+2713)
                not set up for use with LaTeX.
@@ -1445,7 +1554,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[15]
+[17]
 
 ! LaTeX Error: Unicode character ₹ (U+20B9)
                not set up for use with LaTeX.
@@ -1778,23 +1887,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[16]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[17]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
 [18]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[19]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[20]
 
 ! LaTeX Error: Unicode character ₹ (U+20B9)
                not set up for use with LaTeX.
@@ -1828,7 +1937,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[19]
+[21]
 Underfull \hbox (badness 8113) in paragraph at lines 966--967
 []\OT1/cmr/m/n/9 We pre-dict be-fore
  []
@@ -1908,22 +2017,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[20]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[21]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
 [22]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1933,6 +2026,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [23]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[24]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[25]
 
 ! LaTeX Error: Unicode character ✓ (U+2713)
                not set up for use with LaTeX.
@@ -2096,7 +2205,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[24]
+[26]
 
 ! LaTeX Error: Unicode character ✓ (U+2713)
                not set up for use with LaTeX.
@@ -2117,7 +2226,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[25]
+[27]
 
 ! LaTeX Error: Unicode character ₹ (U+20B9)
                not set up for use with LaTeX.
@@ -2151,7 +2260,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[26]
+[28]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2159,7 +2268,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[27]
+[29]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2167,29 +2276,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[28] (main.aux)
+[30] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D8BAA0A6BC259F233CA5CEA7554CDE87;20802.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D8BAA0A6BC259F233CA5CEA7554CDE87;20802.
  ) 
 Here is how much of TeX's memory you used:
- 25617 strings out of 467871
- 492922 string characters out of 5416440
- 884423 words of memory out of 5000000
- 53961 multiletter control sequences out of 15000+600000
+ 25723 strings out of 467871
+ 494976 string characters out of 5416440
+ 892916 words of memory out of 5000000
+ 54057 multiletter control sequences out of 15000+600000
  639908 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,12n,108p,442b,700s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2214,9 +2313,9 @@ lic/amsfonts/cm/cmti12.pfb><C:/Users/Atrishman/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Atrishman/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Atrishman/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (28 pages, 3711708 bytes).
+Output written on main.pdf (30 pages, 3780026 bytes).
 PDF statistics:
- 402 PDF objects out of 1000 (max. 8388607)
- 162 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 780 PDF objects out of 1000 (max. 8388607)
+ 164 named destinations out of 1000 (max. 500000)
+ 774 words of extra memory for PDF output out of 10000 (max. 10000000)
 
