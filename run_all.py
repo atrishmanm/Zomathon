@@ -34,7 +34,7 @@ def main():
     
     # Step 1: Generate data
     if not run_command(
-        "Step 1/5: Generating synthetic datasets...",
+        "Step 1/6: Generating synthetic datasets...",
         [sys.executable, "src/generate_data.py"]
     ):
         print("\n❌ Failed to generate data. Exiting.")
@@ -42,23 +42,31 @@ def main():
     
     # Step 2: Run analysis
     if not run_command(
-        "Step 2/5: Running KPT analysis...",
+        "Step 2/6: Running KPT analysis...",
         [sys.executable, "src/analyze_kpt.py"]
     ):
         print("\n❌ Failed to run analysis. Exiting.")
         return False
     
-    # Step 3: Generate visualizations
+    # Step 3: Train ML models
     if not run_command(
-        "Step 3/5: Generating visualizations...",
+        "Step 3/6: Training KPT prediction models...",
+        [sys.executable, "src/train_kpt_model.py"]
+    ):
+        print("\n❌ Failed to train models. Exiting.")
+        return False
+    
+    # Step 4: Generate visualizations
+    if not run_command(
+        "Step 4/6: Generating visualizations...",
         [sys.executable, "src/generate_visualizations.py"]
     ):
         print("\n❌ Failed to generate visualizations. Exiting.")
         return False
     
-    # Step 4: Compile LaTeX to PDF
+    # Step 5: Compile LaTeX to PDF
     print("\n" + "="*60)
-    print("Step 4/5: Compiling LaTeX document to PDF...")
+    print("Step 5/6: Compiling LaTeX document to PDF...")
     print("="*60)
     
     # Create output directory
@@ -96,13 +104,14 @@ def main():
         print("\n❌ PDF file not found. LaTeX compilation may have failed.")
         return False
     
-    # Step 5: Summary
+    # Step 6: Summary
     print("\n" + "="*80)
-    print("Step 5/5: Generation Complete!")
+    print("Step 6/6: Generation Complete!")
     print("="*80)
     
     print("\n📁 Generated Files:")
     print("   ✓ data/ — Synthetic datasets (4 CSV files)")
+    print("   ✓ models/ — Trained ML models (baseline & enhanced)")
     print("   ✓ images/ — Visualizations (5 PNG files)")
     print("   ✓ notebooks/kpt_analysis.ipynb — Jupyter notebook")
     print("   ✓ output/Zomato_KPT_Solution.pdf — Final PDF submission")
@@ -110,8 +119,9 @@ def main():
     print("\n📊 Next Steps:")
     print("   1. Review the PDF: output/Zomato_KPT_Solution.pdf")
     print("   2. Explore the notebook: notebooks/kpt_analysis.ipynb")
-    print("   3. Check the data: data/*.csv")
-    print("   4. View images: images/*.png")
+    print("   3. Check the models: models/*.pkl")
+    print("   4. Check the data: data/*.csv")
+    print("   5. View images: images/*.png")
     
     print("\n🚀 Ready for submission!")
     print("="*80)

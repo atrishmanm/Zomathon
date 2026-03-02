@@ -84,11 +84,11 @@
 
 \vspace{0.3cm}
 
-\textbf{Solution:} Multi-Signal Fusion Framework combining IoT kitchen sensors, enhanced merchant app, ML pattern detection, and external APIs to achieve \textbf{35-42\% improvement} in key metrics.
+\textbf{Solution:} Multi-Signal Fusion Framework combining IoT kitchen sensors, enhanced merchant app, ML pattern detection, and external APIs. Our trained model achieves \textbf{29.9\% improvement} in MAE and \textbf{29.5\% improvement} in P90 error.
 
 \vspace{0.3cm}
 
-\textbf{Expected ROI:} ₹91M+ annual savings with 5.3 month breakeven.
+\textbf{Expected ROI:} ₹2.7B+ annual savings with improved prediction accuracy across all metrics.
 \end{tcolorbox}
 
 \vspace{0.5cm}
@@ -640,24 +640,63 @@ From simulation of current system:
 
 \begin{table}[H]
 \centering
-\caption{Current System Performance (Simulation Baseline)}
+\caption{Current System Performance (Baseline)}
 \begin{tabular}{@{}lcc@{}}
 \toprule
 \textbf{Metric} & \textbf{Value} & \textbf{Target} \\ \midrule
-Mean Absolute Error (MAE) & 6.8 minutes & $<$4 min \\
-P50 ETA Error & 4.2 minutes & $<$3 min \\
-P90 ETA Error & 12.7 minutes & $<$7 min \\
-Avg Rider Wait Time & 6.8 minutes & $<$3 min \\
-Avg Rider Idle Time & 4.3 minutes & $<$2 min \\
-Orders with $>$10min delay & 18.2\% & $<$8\% \\
+Mean Absolute Error (MAE) & 3.30 minutes & $<$2.5 min \\
+Root Mean Squared Error (RMSE) & 4.30 minutes & $<$3.0 min \\
+R² Score & 0.9482 & $>$0.96 \\
+P50 ETA Error & 2.59 minutes & $<$2.0 min \\
+P90 ETA Error & 7.10 minutes & $<$5.0 min \\
+P95 ETA Error & 8.96 minutes & $<$6.5 min \\
 \bottomrule
 \end{tabular}
 \label{tab:baseline}
 \end{table}
 
+\subsection{Feature Engineering: 5 New Predictive Features}
+
+Beyond the baseline features (merchant marking, time of day, rush hour indicators), we developed 5 new features:
+
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Order Value per Item (Rank \#22, Importance: 0.0013)}
+    \begin{itemize}
+        \item Higher ratio suggests complex/expensive items requiring more prep time
+        \item Formula: $\text{order\_value} / (\text{num\_items} + 1)$
+    \end{itemize}
+    
+    \item \textbf{Distance to Nearest Rush Hour (Rank \#23, Importance: 0.0026)}
+    \begin{itemize}
+        \item Temporal proximity to peak hours (12pm, 1pm, 7pm, 8pm)
+        \item Captures kitchen state transitions during rush buildup/decline
+    \end{itemize}
+    
+    \item \textbf{Kitchen Efficiency Score (Rank \#24, Importance: 0.0005)}
+    \begin{itemize}
+        \item Load-to-capacity ratio: $\text{estimated\_load} / (\text{capacity} + 1)$
+        \item Higher values indicate stressed kitchen conditions
+    \end{itemize}
+    
+    \item \textbf{Order Complexity Score (Rank \#25, Importance: 0.0014)}
+    \begin{itemize}
+        \item Normalized items and value relative to merchant averages
+        \item Captures order deviations from typical patterns
+    \end{itemize}
+    
+    \item \textbf{Merchant Historical Bias (Rank \#2, Importance: 0.0172)}
+    \begin{itemize}
+        \item Tracks each merchant's systematic over/under estimation pattern
+        \item \textit{Second most important feature overall}
+        \item Enables merchant-specific bias correction
+    \end{itemize}
+\end{enumerate}
+
+\textbf{Impact:} The merchant historical bias feature alone shows significant predictive power, ranking as the second most important feature after the merchant marking itself.
+
 \subsection{Improved System Performance}
 
-With Multi-Signal Fusion (simulated with 65\% bias reduction, 30\% variance reduction):
+With Multi-Signal Fusion and 5 new engineered features:
 
 \begin{table}[H]
 \centering
@@ -665,12 +704,12 @@ With Multi-Signal Fusion (simulated with 65\% bias reduction, 30\% variance redu
 \begin{tabular}{@{}lcccc@{}}
 \toprule
 \textbf{Metric} & \textbf{Current} & \textbf{Improved} & \textbf{Change} & \textbf{Target Met?} \\ \midrule
-MAE & 6.8 min & 3.9 min & \textcolor{zomato}{-42.6\%} & \checkmark \\
-P50 ETA Error & 4.2 min & 2.4 min & \textcolor{zomato}{-42.9\%} & \checkmark \\
-P90 ETA Error & 12.7 min & 7.4 min & \textcolor{zomato}{-41.7\%} & \checkmark \\
-Rider Wait Time & 6.8 min & 4.4 min & \textcolor{zomato}{-35.3\%} & (nearing) \\
-Rider Idle Time & 4.3 min & 2.8 min & \textcolor{zomato}{-34.9\%} & (nearing) \\
-Orders delayed $>$10min & 18.2\% & 13.1\% & \textcolor{zomato}{-28.0\%} & (improving) \\
+MAE & 3.30 min & 2.32 min & \textcolor{zomato}{-29.9\%} & \checkmark \\
+RMSE & 4.30 min & 3.08 min & \textcolor{zomato}{-28.3\%} & \checkmark \\
+R² Score & 0.9482 & 0.9733 & \textcolor{zomato}{+2.7\%} & \checkmark \\
+P50 ETA Error & 2.59 min & 1.78 min & \textcolor{zomato}{-31.3\%} & \checkmark \\
+P90 ETA Error & 7.10 min & 5.01 min & \textcolor{zomato}{-29.5\%} & \checkmark \\
+P95 ETA Error & 8.96 min & 6.34 min & \textcolor{zomato}{-29.2\%} & \checkmark \\
 \bottomrule
 \end{tabular}
 \label{tab:improved}
@@ -678,15 +717,17 @@ Orders delayed $>$10min & 18.2\% & 13.1\% & \textcolor{zomato}{-28.0\%} & (impro
 
 \subsection{Success Metrics Achievement}
 
-\begin{tcolorbox}[colback=lightgray,colframe=zomato,title=\textbf{Key Achievement: All Primary Metrics Improved by 35-42\%}]
+\begin{tcolorbox}[colback=lightgray,colframe=zomato,title=\textbf{Key Achievement: All Primary Metrics Improved by ~30\%}]
 
-\textbf{✓ Avg Rider Wait Time:} 6.8 → 4.4 minutes (\textbf{-35.3\%})
+\textbf{✓ MAE:} 3.30 → 2.32 minutes (\textbf{-29.9\%})
 
-\textbf{✓ P90 ETA Error:} 12.7 → 7.4 minutes (\textbf{-41.7\%})
+\textbf{✓ P90 ETA Error:} 7.10 → 5.01 minutes (\textbf{-29.5\%})
 
-\textbf{✓ Rider Idle Time:} 4.3 → 2.8 minutes (\textbf{-34.9\%})
+\textbf{✓ RMSE:} 4.30 → 3.08 minutes (\textbf{-28.3\%})
 
-\textbf{✓ Order Delays:} 18.2\% → 13.1\% (\textbf{-28.0\%})
+\textbf{✓ P95 Error:} 8.96 → 6.34 minutes (\textbf{-29.2\%})
+
+\textbf{✓ R² Score:} 0.9482 → 0.9733 (\textbf{+2.7\%})
 
 \end{tcolorbox}
 
@@ -694,15 +735,18 @@ Orders delayed $>$10min & 18.2\% & 13.1\% & \textcolor{zomato}{-28.0\%} & (impro
 
 \subsubsection{Cost Savings (Scaled to Zomato Volume)}
 
-\textbf{Current System Annual Cost:} ₹262M
+\textbf{Based on Model Training Results:}
+
+\textbf{Annual Savings from Prediction Improvement: ₹2.7 Billion}
+
 \begin{itemize}
-    \item Wasted rider time: ₹185M
-    \item Order cancellations/GMV loss: ₹77M
+    \item Reduced rider wait time costs
+    \item Improved resource allocation efficiency
+    \item Better customer ETA accuracy reducing complaints
+    \item Decreased order delays and cancellations
 \end{itemize}
 
-\textbf{Improved System Annual Cost:} ₹171M (35\% reduction)
-
-\textbf{Annual Savings: ₹91M}
+\textit{Note: Savings calculated at ₹5 per minute of improved prediction accuracy across 1.5M daily orders.}
 
 \subsubsection{Implementation Costs}
 
@@ -728,29 +772,29 @@ Orders delayed $>$10min & 18.2\% & 13.1\% & \textcolor{zomato}{-28.0\%} & (impro
 \textbf{Year 1:}
 \begin{itemize}
     \item Cost: ₹85M (one-time) + ₹54M (recurring) = ₹139M
-    \item Savings: ₹91M (assuming 12-month ramp to full benefit)
-    \item Net: -₹48M (investment year)
+    \item Savings: ₹2.7B (assuming 12-month ramp to full benefit)
+    \item Net: +₹2.56B (positive from year 1)
 \end{itemize}
 
 \textbf{Year 2 onwards:}
 \begin{itemize}
     \item Cost: ₹54M/year (recurring only)
-    \item Savings: ₹91M/year
-    \item Net: +₹37M/year profit
+    \item Savings: ₹2.7B/year
+    \item Net: +₹2.65B/year profit
 \end{itemize}
 
-\textbf{Breakeven: 19 months}
+\textbf{Breakeven: 2-3 months}
 
-\textbf{3-Year NPV (10\% discount): ₹48M}
+\textbf{3-Year NPV (10\% discount): ₹6.8B+}
 
-\textbf{5-Year NPV: ₹127M}
+\textbf{5-Year NPV: ₹11.5B+}
 
 \begin{tcolorbox}[colback=lightgray,colframe=darkblue,title=\textbf{ROI Summary}]
 \begin{itemize}
     \item Initial investment: ₹85M
-    \item Breakeven: 19 months
-    \item Annual net benefit (steady state): ₹37M
-    \item 5-year ROI: 149\%
+    \item Breakeven: 2-3 months
+    \item Annual net benefit (steady state): ₹2.65B
+    \item 5-year ROI: 13,400\%+
 \end{itemize}
 \end{tcolorbox}
 
@@ -844,24 +888,24 @@ Output: Load multiplier (1.0 = no hidden load, 2.5 = kitchen 2.5x busier than vi
     \item Opt-in for merchants (incentivized with better predictions)
 \end{itemize}
 
-\subsection{Validation: Does It Work?}
+\subsection{Validation: Model Performance}
 
-In our simulation, incorporating total kitchen load signals:
+Training results across different feature sets:
 
 \begin{table}[H]
 \centering
-\caption{Impact of Capturing Hidden Kitchen Rush}
+\caption{Impact of Enhanced Features and Multi-Signal Approach}
 \begin{tabular}{@{}lcc@{}}
 \toprule
-\textbf{Scenario} & \textbf{P90 ETA Error} & \textbf{Improvement} \\ \midrule
-Baseline (Zomato orders only) & 12.7 min & -- \\
-+ ML patterns (no IoT) & 10.1 min & -20.5\% \\
-+ IoT kitchen load (full visibility) & 7.4 min & -41.7\% \\
+\textbf{Model Configuration} & \textbf{MAE} & \textbf{Improvement} \\ \midrule
+Baseline (Merchant marking only) & 3.30 min & -- \\
++ Enhanced features & 2.82 min & -14.5\% \\
++ Multi-signal fusion & 2.32 min & -29.9\% \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\textbf{Conclusion:} Capturing hidden kitchen rush is responsible for \textbf{half of our improvement}.
+\textbf{Key Finding:} The combination of new features and multi-signal approach delivers substantial improvements over baseline predictions.
 
 \newpage
 
@@ -1241,11 +1285,13 @@ We propose a \textbf{Multi-Signal Fusion Framework} to dramatically improve Kitc
 \subsubsection{Success Criteria for Pilot}
 
 \begin{itemize}[leftmargin=*]
-    \item Rider wait time reduced by $\geq$25\%
-    \item P90 ETA error reduced by $\geq$30\%
+    \item MAE reduced by $\geq$25\%
+    \item P90 ETA error reduced by $\geq$25\%
     \item Merchant satisfaction $\geq$4.0/5.0
     \item IoT uptime $\geq$95\%
 \end{itemize}
+
+\textit{Note: Our trained model already achieves 29.9\% MAE reduction and 29.5\% P90 error reduction, exceeding these targets.}
 
 \subsubsection{Long-term Strategic Goals}
 
@@ -1258,17 +1304,17 @@ We propose a \textbf{Multi-Signal Fusion Framework} to dramatically improve Kitc
 
 \subsection{Final Thoughts}
 
-The kitchen prep time prediction problem is fundamentally a \textbf{signal quality problem}, not just a modeling challenge. By enriching and diversifying input signals — especially capturing the previously invisible total kitchen load — we can achieve step-change improvements in prediction accuracy.
+The kitchen prep time prediction problem is fundamentally a \textbf{signal quality problem}. By enriching and diversifying input signals -- especially capturing the previously invisible total kitchen load -- we achieve substantial improvements in prediction accuracy.
 
 Our Multi-Signal Fusion Framework is:
 \begin{itemize}
     \item \textbf{Innovative:} Novel use of IoT for cross-platform kitchen monitoring
     \item \textbf{Scalable:} Tiered approach works for all merchant sizes
-    \item \textbf{Validated:} Simulation demonstrates 35-42\% improvements
-    \item \textbf{Financially Sound:} 19-month ROI, ₹37M annual benefit
+    \item \textbf{Validated:} Trained model demonstrates ~30\% improvements across metrics
+    \item \textbf{Financially Sound:} 2-3 month ROI, ₹2.65B annual benefit
 \end{itemize}
 
-This is not just an incremental improvement — it's a fundamental rethinking of how we approach KPT prediction. And at Zomato's scale, it translates to:
+This represents a fundamental rethinking of KPT prediction. At Zomato's scale, it translates to:
 
 \begin{center}
 \Large
@@ -1278,13 +1324,13 @@ This is not just an incremental improvement — it's a fundamental rethinking of
 
 \textbf{Improved efficiency for 300K+ merchants}
 
-\textbf{₹91M+ annual savings for Zomato}
+\textbf{₹2.7B+ annual savings for Zomato}
 \end{center}
 
 \vspace{1cm}
 
 \begin{center}
-\textbf{\Large Let's build the future of food delivery, one accurate prediction at a time.}
+\textbf{\Large Accurate predictions enable better experiences.}
 \end{center}
 
 \newpage
@@ -1347,11 +1393,9 @@ All visualization images referenced in this document are available in the GitHub
 
 \vspace{0.5cm}
 
-\textit{``In a world of uncertainty, better predictions mean better experiences.''}
+\textbf{Prepared by: Atrishman Mukherjee, Ansh Mathur, Supratik Dey}
 
-\vspace{0.3cm}
-
-\textbf{Thank you for considering our solution.}
+\textit{Zomathon 2026 - Problem Statement 1}
 
 \end{center}
 

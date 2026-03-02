@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.18)  2 MAR 2026 21:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.18)  2 MAR 2026 22:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -962,7 +962,8 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.91 \textbf{Expected ROI:} ₹
-                               91M+ annual savings with 5.3 month breakeven.
+                               2.7B+ annual savings with improved prediction...
+
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -985,7 +986,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 ...ownstream Impact}{26}{subsubsection.9.2.1}
+l.81 ...ownstream Impact}{27}{subsubsection.9.2.1}
                                                   %
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -998,7 +999,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81 ...lity Improvement}{26}{subsubsection.9.2.2}
+l.82 ...lity Improvement}{27}{subsubsection.9.2.2}
                                                   %
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1011,7 +1012,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.82 ...aurant Live Rush}{26}{subsubsection.9.2.3}
+l.83 ...aurant Live Rush}{27}{subsubsection.9.2.3}
                                                   %
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1024,7 +1025,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 ...}✓ Scalability}{26}{subsubsection.9.2.4}
+l.84 ...}✓ Scalability}{27}{subsubsection.9.2.4}
                                                   %
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1037,7 +1038,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84 ...ative Validation}{26}{subsubsection.9.2.5}
+l.85 ...ative Validation}{27}{subsubsection.9.2.5}
                                                   %
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1050,7 +1051,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.85 ... Success Metrics}{27}{subsubsection.9.2.6}
+l.86 ... Success Metrics}{28}{subsubsection.9.2.6}
                                                   %
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1063,7 +1064,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.86 ...ty \& Creativity}{27}{subsubsection.9.2.7}
+l.87 ...ty \& Creativity}{28}{subsubsection.9.2.7}
                                                   %
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1089,7 +1090,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
-<../images/marking_bias_analysis.png, id=495, 952.2777pt x 681.2652pt>
+<../images/marking_bias_analysis.png, id=500, 952.2777pt x 681.2652pt>
 File: ../images/marking_bias_analysis.png Graphic file (type png)
 <use ../images/marking_bias_analysis.png>
 Package pdftex.def Info: ../images/marking_bias_analysis.png  used on input lin
@@ -1183,7 +1184,7 @@ l.203 ... Annual Cost of Inaccurate KPT: ₹262M+}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-<../images/prediction_impact.png, id=504, 1006.962pt x 702.7053pt>
+<../images/prediction_impact.png, id=509, 1006.962pt x 702.7053pt>
 File: ../images/prediction_impact.png Graphic file (type png)
 <use ../images/prediction_impact.png>
 Package pdftex.def Info: ../images/prediction_impact.png  used on input line 20
@@ -1197,7 +1198,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [6 <../images/prediction_impact.png>]
-<../images/kitchen_visibility_gap.png, id=512, 990.8217pt x 719.0865pt>
+<../images/kitchen_visibility_gap.png, id=517, 990.8217pt x 719.0865pt>
 File: ../images/kitchen_visibility_gap.png Graphic file (type png)
 <use ../images/kitchen_visibility_gap.png>
 Package pdftex.def Info: ../images/kitchen_visibility_gap.png  used on input li
@@ -1220,7 +1221,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [8]
-<../images/proposed_solution.png, id=526, 946.9779pt x 819.7827pt>
+<../images/proposed_solution.png, id=531, 946.9779pt x 819.7827pt>
 File: ../images/proposed_solution.png Graphic file (type png)
 <use ../images/proposed_solution.png>
 Package pdftex.def Info: ../images/proposed_solution.png  used on input line 29
@@ -1452,7 +1453,7 @@ l.567 ...:} ₹25,000+ hardware (cost-shared), ₹
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-<../images/scalability_analysis.png, id=558, 948.9051pt x 553.3473pt>
+<../images/scalability_analysis.png, id=563, 948.9051pt x 553.3473pt>
 File: ../images/scalability_analysis.png Graphic file (type png)
 <use ../images/scalability_analysis.png>
 Package pdftex.def Info: ../images/scalability_analysis.png  used on input line
@@ -1483,71 +1484,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [16]
 
-! LaTeX Error: Unicode character ✓ (U+2713)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.683 \textbf{✓ Avg Rider Wait Time:}
-                                        6.8 → 4.4 minutes (\textbf{-35.3\%})
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character ✓ (U+2713)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.685 \textbf{✓ P90 ETA Error:}
-                                  12.7 → 7.4 minutes (\textbf{-41.7\%})
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character ✓ (U+2713)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.687 \textbf{✓ Rider Idle Time:}
-                                    4.3 → 2.8 minutes (\textbf{-34.9\%})
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character ✓ (U+2713)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.689 \textbf{✓ Order Delays:}
-                                 18.2\% → 13.1\% (\textbf{-28.0\%})
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character ₹ (U+20B9)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.697 \textbf{Current System Annual Cost:} ₹
-                                              262M
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -1556,15 +1492,67 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [17]
 
-! LaTeX Error: Unicode character ₹ (U+20B9)
+! LaTeX Error: Unicode character ✓ (U+2713)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.699     \item Wasted rider time: ₹
-                                      185M
+l.722 \textbf{✓ MAE:}
+                        3.30 → 2.32 minutes (\textbf{-29.9\%})
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ✓ (U+2713)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.724 \textbf{✓ P90 ETA Error:}
+                                  7.10 → 5.01 minutes (\textbf{-29.5\%})
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ✓ (U+2713)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.726 \textbf{✓ RMSE:}
+                         4.30 → 3.08 minutes (\textbf{-28.3\%})
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ✓ (U+2713)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.728 \textbf{✓ P95 Error:}
+                              8.96 → 6.34 minutes (\textbf{-29.2\%})
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ✓ (U+2713)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.730 \textbf{✓ R² Score:}
+                              0.9482 → 0.9733 (\textbf{+2.7\%})
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1576,8 +1564,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.700     \item Order cancellations/GMV loss: ₹
-                                                 77M
+l.740 ...m Prediction Improvement: ₹2.7 Billion}
+                                                  
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1589,8 +1577,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.703 \textbf{Improved System Annual Cost:} ₹
-                                               171M (35\% reduction)
+l.749 ...ction accuracy across 1.5M daily orders.}
+                                                  
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1602,20 +1590,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.705 \textbf{Annual Savings: ₹91M}
-                                     
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character ₹ (U+20B9)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.711 ...ware for 50,000 merchants (Tier 2-4): ₹
+l.755 ...ware for 50,000 merchants (Tier 2-4): ₹
                                                   50M (subsidized pricing)
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1628,7 +1603,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.712     \item Installation \& setup: ₹
+l.756     \item Installation \& setup: ₹
                                           15M
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1641,7 +1616,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.713     \item App development: ₹
+l.757     \item App development: ₹
                                     8M
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1654,7 +1629,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.714     \item ML infrastructure setup: ₹
+l.758     \item ML infrastructure setup: ₹
                                             12M
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1667,7 +1642,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.715     \item \textbf{Total One-time: ₹85M}
+l.759     \item \textbf{Total One-time: ₹85M}
                                                
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1680,11 +1655,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.720 ...item IoT maintenance \& connectivity: ₹
+l.764 ...item IoT maintenance \& connectivity: ₹
                                                   24M
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[18]
 
 ! LaTeX Error: Unicode character ₹ (U+20B9)
                not set up for use with LaTeX.
@@ -1693,7 +1676,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.721     \item ML infrastructure \& compute: ₹
+l.765     \item ML infrastructure \& compute: ₹
                                                  18M
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1706,7 +1689,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.722     \item Support \& operations: ₹
+l.766     \item Support \& operations: ₹
                                           12M
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1719,7 +1702,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.723 ...tem \textbf{Total Recurring: ₹54M/year}
+l.767 ...tem \textbf{Total Recurring: ₹54M/year}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1732,7 +1715,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.730     \item Cost: ₹
+l.774     \item Cost: ₹
                          85M (one-time) + ₹54M (recurring) = ₹139M
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1745,7 +1728,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.730     \item Cost: ₹85M (one-time) + ₹
+l.774     \item Cost: ₹85M (one-time) + ₹
                                              54M (recurring) = ₹139M
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1758,7 +1741,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.730 ...85M (one-time) + ₹54M (recurring) = ₹
+l.774 ...85M (one-time) + ₹54M (recurring) = ₹
                                                   139M
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1771,8 +1754,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.731     \item Savings: ₹
-                            91M (assuming 12-month ramp to full benefit)
+l.775     \item Savings: ₹
+                            2.7B (assuming 12-month ramp to full benefit)
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1784,8 +1767,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.732     \item Net: -₹
-                         48M (investment year)
+l.776     \item Net: +₹
+                         2.56B (positive from year 1)
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1797,7 +1780,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.737     \item Cost: ₹
+l.781     \item Cost: ₹
                          54M/year (recurring only)
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1810,8 +1793,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.738     \item Savings: ₹
-                            91M/year
+l.782     \item Savings: ₹
+                            2.7B/year
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1823,8 +1806,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.739     \item Net: +₹
-                         37M/year profit
+l.783     \item Net: +₹
+                         2.65B/year profit
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1836,8 +1819,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.744 \textbf{3-Year NPV (10\% discount): ₹48M}
-                                                 
+l.788 ...tbf{3-Year NPV (10\% discount): ₹6.8B+}
+                                                  
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1849,8 +1832,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.746 \textbf{5-Year NPV: ₹127M}
-                                  
+l.790 \textbf{5-Year NPV: ₹11.5B+}
+                                    
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1862,7 +1845,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.750     \item Initial investment: ₹
+l.794     \item Initial investment: ₹
                                        85M
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1875,19 +1858,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.752 ...em Annual net benefit (steady state): ₹
-                                                  37M
+l.796 ...em Annual net benefit (steady state): ₹
+                                                  2.65B
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[18]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1905,6 +1880,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [20]
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[21]
+
 ! LaTeX Error: Unicode character ₹ (U+20B9)
                not set up for use with LaTeX.
 
@@ -1912,7 +1895,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.886 ...xtbf{Scalable:} Low-cost hardware ($<$₹
+l.930 ...xtbf{Scalable:} Low-cost hardware ($<$₹
                                                   15K per kitchen)
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1925,7 +1908,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.907 ... doesn't fit all. Small street vendor ≠
+l.951 ... doesn't fit all. Small street vendor ≠
                                                    large chain restaurant.
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1937,13 +1920,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[21]
-Underfull \hbox (badness 8113) in paragraph at lines 966--967
+[22]
+Underfull \hbox (badness 8113) in paragraph at lines 1010--1011
 []\OT1/cmr/m/n/9 We pre-dict be-fore
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 969--969
+Underfull \hbox (badness 10000) in paragraph at lines 1013--1013
 []\OT1/cmr/m/n/9 Computer Vi-sion
  []
 
@@ -1955,69 +1938,61 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.973 - High cost (₹
-                      50K+/kitchen)
+l.1017 - High cost (₹
+                       50K+/kitchen)
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 972--974
+Underfull \hbox (badness 10000) in paragraph at lines 1016--1018
 []\OT1/cmr/m/n/9 - Pri-vacy con-
  []
 
 
-Underfull \hbox (badness 5077) in paragraph at lines 972--974
+Underfull \hbox (badness 5077) in paragraph at lines 1016--1018
 \OT1/cmr/m/n/9 cerns - High cost
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 972--974
+Underfull \hbox (badness 10000) in paragraph at lines 1016--1018
 \OT1/cmr/m/n/9 (50K+/kitchen) -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 972--974
+Underfull \hbox (badness 10000) in paragraph at lines 1016--1018
 \OT1/cmr/m/n/9 Mer-chants re-sist
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 978--978
+Underfull \hbox (badness 3179) in paragraph at lines 1022--1022
 []\OT1/cmr/bx/n/9 Our Multi-Signal
  []
 
 
-Underfull \hbox (badness 3281) in paragraph at lines 979--982
+Underfull \hbox (badness 3281) in paragraph at lines 1023--1026
 []\OT1/cmr/bx/n/9 - Fixes data at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 979--982
+Underfull \hbox (badness 10000) in paragraph at lines 1023--1026
 \OT1/cmr/bx/n/9 source - Sees
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 979--982
+Underfull \hbox (badness 10000) in paragraph at lines 1023--1026
 \OT1/cmr/bx/n/9 hid-den load -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 979--982
+Underfull \hbox (badness 10000) in paragraph at lines 1023--1026
 \OT1/cmr/bx/n/9 able - Privacy-
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 983--984
+Underfull \hbox (badness 7081) in paragraph at lines 1027--1028
 []\OT1/cmr/bx/n/9 - Hard-ware de-
  []
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[22]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2043,162 +2018,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [25]
 
-! LaTeX Error: Unicode character ✓ (U+2713)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1158 ...blem Understanding \& Downstream Impact}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character ₹ (U+20B9)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1162     \item Quantified business impact: ₹
-                                                262M annual cost
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character ✓ (U+2713)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1166 ...bsection{✓ Signal Quality Improvement}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character ✓ (U+2713)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1174 ...ction{✓ Handling Restaurant Live Rush}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character ✓ (U+2713)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1182 \subsubsection{✓ Scalability}
-                                      
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character ₹ (U+20B9)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1185 ...xtbf{Tier 1 (Small):} App + ML only (₹
-                                                  0 hardware)
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character ₹ (U+20B9)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1186 ... \textbf{Tier 2 (Medium):} Lite IoT (₹
-                                                  8K hardware)
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character ₹ (U+20B9)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1187 ...m \textbf{Tier 3 (Large):} Full IoT (₹
-                                                  15K hardware)
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character ₹ (U+20B9)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1188 ...r 4 (Enterprise):} Custom solutions (₹
-                                                  25K+ hardware)
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character ✓ (U+2713)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1192 ...� Simulation \& Quantitative Validation}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character ₹ (U+20B9)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1197 ...emonstrated ROI: 19-month breakeven, ₹
-                                                  37M annual net benefit
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character ✓ (U+2713)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1200 ...ubsection{✓ Impact on Success Metrics}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -2214,8 +2033,151 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1209 \subsubsection{✓ Novelty \& Creativity}
-                                                
+l.1202 ...blem Understanding \& Downstream Impact}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ₹ (U+20B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1206     \item Quantified business impact: ₹
+                                                262M annual cost
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ✓ (U+2713)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1210 ...bsection{✓ Signal Quality Improvement}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ✓ (U+2713)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1218 ...ction{✓ Handling Restaurant Live Rush}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ✓ (U+2713)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1226 \subsubsection{✓ Scalability}
+                                      
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ₹ (U+20B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1229 ...xtbf{Tier 1 (Small):} App + ML only (₹
+                                                  0 hardware)
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ₹ (U+20B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1230 ... \textbf{Tier 2 (Medium):} Lite IoT (₹
+                                                  8K hardware)
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ₹ (U+20B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1231 ...m \textbf{Tier 3 (Large):} Full IoT (₹
+                                                  15K hardware)
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ₹ (U+20B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1232 ...r 4 (Enterprise):} Custom solutions (₹
+                                                  25K+ hardware)
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ✓ (U+2713)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1236 ...� Simulation \& Quantitative Validation}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ₹ (U+20B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1241 ...emonstrated ROI: 19-month breakeven, ₹
+                                                  37M annual net benefit
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ✓ (U+2713)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1244 ...ubsection{✓ Impact on Success Metrics}
+                                                  
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -2228,28 +2190,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [27]
 
-! LaTeX Error: Unicode character ₹ (U+20B9)
+! LaTeX Error: Unicode character ✓ (U+2713)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1268 ...bf{Financially Sound:} 19-month ROI, ₹
-                                                  37M annual benefit
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character ₹ (U+20B9)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1281 \textbf{₹91M+ annual savings for Zomato}
-                                                 
+l.1253 \subsubsection{✓ Novelty \& Creativity}
+                                                
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -2261,6 +2210,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [28]
+
+! LaTeX Error: Unicode character ₹ (U+20B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1314 ...f{Financially Sound:} 2-3 month ROI, ₹
+                                                  2.65B annual benefit
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ₹ (U+20B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1327 \textbf{₹2.7B+ annual savings for Zomato}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2276,46 +2251,56 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[30] (main.aux)
+[30]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[31] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D8BAA0A6BC259F233CA5CEA7554CDE87;20802.
+(rerunfilecheck)             Checksum: B7C3A50288554D88C56A1D9E70CA809A;21122.
  ) 
 Here is how much of TeX's memory you used:
- 25723 strings out of 467871
- 494976 string characters out of 5416440
- 892916 words of memory out of 5000000
- 54057 multiletter control sequences out of 15000+600000
- 639908 words of font info for 86 fonts, out of 8000000 for 9000
+ 25732 strings out of 467871
+ 495041 string characters out of 5416440
+ 892905 words of memory out of 5000000
+ 54058 multiletter control sequences out of 15000+600000
+ 640253 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,12n,108p,442b,700s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Atrishman\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-tcrm1095.pk><C:/Users/Atrishman/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmbx10.pfb><C:/Users/Atrishman/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Atrishman/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Atrishman/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Atrish
-man/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:
-/Users/Atrishman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mmi8.pfb><C:/Users/Atrishman/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><C:/Users/Atrishman/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/Atrishman/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Atrishman/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Atrishman/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/At
-rishman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-><C:/Users/Atrishman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmti10.pfb><C:/Users/Atrishman/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmti12.pfb><C:/Users/Atrishman/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Atrishman/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Atrishman/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (30 pages, 3780026 bytes).
+tcbx1095.pk> <C:\Users\Atrishman\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
+ec/dpi600\tcrm1095.pk><C:/Users/Atrishman/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Atrishman/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Atrishman/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Atrishman
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Us
+ers/Atrishman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb><C:/Users/Atrishman/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi8.pfb><C:/Users/Atrishman/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Users/Atrishman/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Atrishman/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Atrishman/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Atr
+ishman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C
+:/Users/Atrishman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb><C:/Users/Atrishman/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmti10.pfb><C:/Users/Atrishman/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Atrishman/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Atrishman/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Atrish
+man/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pf
+b>
+Output written on main.pdf (31 pages, 3811137 bytes).
 PDF statistics:
- 780 PDF objects out of 1000 (max. 8388607)
- 164 named destinations out of 1000 (max. 500000)
- 774 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 802 PDF objects out of 1000 (max. 8388607)
+ 171 named destinations out of 1000 (max. 500000)
+ 782 words of extra memory for PDF output out of 10000 (max. 10000000)
 

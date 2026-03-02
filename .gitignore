@@ -1,0 +1,56 @@
+# LaTeX auxiliary files (keep .tex and .pdf)
+latex/*.aux
+latex/*.log
+latex/*.out
+latex/*.toc
+latex/*.synctex.gz
+latex/*.fdb_latexmk
+latex/*.fls
+
+# Generated data files
+data/*.csv
+
+# Generated visualizations and diagrams  
+images/*.png
+images/*.jpg
+images/*.jpeg
+images/*.svg
+output/*.png
+output/*.jpg
+output/*.jpeg
+output/*.svg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Models
+models/
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
